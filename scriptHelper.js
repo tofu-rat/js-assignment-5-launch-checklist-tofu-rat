@@ -38,7 +38,7 @@ function formSubmission(document, list, pilot, copilot, fuelLevel, cargoLevel) {
 
     if (validateInput(pilot.value === "Empty" || copilot.value === "Empty" || fuelLevel.value === "Empty" || cargoLevel.value === "Empty")){
         alert("All Fields Required!");
-    } else if (validateInput(pilot.value === "Is a Number" || copilot.value === "Is a Number"){
+    } else if (validateInput(pilot.value === "Is a Number" || copilot.value === "Is a Number")){
         alert("Please enter a valid name!");
     } else if (validateInput(fuelLevel.value === "Not a Number" || cargoLevel.value === "Not a Number")){
         alert("Error: Please enter a valid number");
